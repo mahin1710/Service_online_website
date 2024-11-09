@@ -142,3 +142,65 @@ main {
     color: #555;
     font-size: 1em;
 }
+
+/* Contact Page */
+.contact-intro {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact-intro h2 {
+    font-family: 'Lobster', cursive;
+    color: #ff6600;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+.contact-intro p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff6600;
+}
+.contact-form button {
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.contact-form button:hover {
+    background-color: #e65c00;
+}
